@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "appsenac",
+    "scheme": "com.hmarcioferreira.appsenac",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
@@ -37,6 +37,19 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b19f1ecb-dc3c-4f10-9400-fcc71690def8"
+      }
+    },
+    "owner": "hmarcioferreira",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b19f1ecb-dc3c-4f10-9400-fcc71690def8"
     }
   }
 }
